@@ -13,7 +13,7 @@ public class terceiraAula {
     
     }
 
-    private static String nomeCompleto(String primeiroNome, String segundoNome) {
+    public static String nomeCompleto(String primeiroNome, String segundoNome) {
         return primeiroNome.concat(" ").concat(segundoNome);
     }
     
